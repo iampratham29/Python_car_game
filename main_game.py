@@ -2,7 +2,7 @@ import pygame
 import time
 import random
 
-intro=0
+intro = 0
 
 pygame.init()
 display_width = 800
@@ -13,7 +13,7 @@ white = (255, 255, 255)
 green = (0, 255, 0)
 red = (255, 0, 0)
 blue = (0, 0, 255)
-bcolor=(220,181,181)
+bcolor =(220,181,181)
 car_width = 50
 car_height = 100
 # start_music = pygame.mixer.Sound("Hurry_Up.mp3")
@@ -39,7 +39,6 @@ bgbtImg = pygame.image.load("water.png")
 
 
 def pintro():
-    # pygame.mixr.Sound.play(start_music)
     global intro
     intro=0
     menu1_x1 = 80
@@ -58,7 +57,6 @@ def pintro():
         
 
         pygame.draw.rect(gameDisplay, black, (200, 400, 100, 50))
-        #pygame.draw.rect(gameDisplay, black, (500, 400, 100, 50))
 
         gameDisplay.fill(bcolor)
         message_display("VVPSA", 100, display_width / 2, display_height / 2)
@@ -406,4 +404,4 @@ if(intro==2):
 if(intro==3):
     gameloop3()
     
-    
+
