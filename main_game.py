@@ -1,7 +1,7 @@
 import pygame
 import time
 import random
-
+#Lets go to code now
 intro = 0
 
 pygame.init()
